@@ -1,4 +1,4 @@
-OpenGL Shader Implementation
+#OpenGL Shader Implementation
 Overview
 This graphical application, implemented in C++ using the Qt framework and OpenGL for rendering, functions as a visualization tool to illustrate the workings of Computer-Aided Geometric Design (CAGD) algorithms.
 
