@@ -16,7 +16,7 @@ OpenGLWindow::OpenGLWindow(const QColor& background, QMainWindow* parent) :
     setParent(parent);
     setMinimumSize(250, 250);
 
-    const QStringList list = { "E:\\Ramesh__Workspace\\Qt\\SymmetricDDAandSutherLandCohen2\\SymmetricDDAandSutherLandCohen1\\SymmetricDDAandSutherLandCohen\\Vertex.glsl" ,"E:\\Ramesh__Workspace\\Qt\\SymmetricDDAandSutherLandCohen2\\SymmetricDDAandSutherLandCohen1\\SymmetricDDAandSutherLandCohen\\Fragment.glsl"};
+    const QStringList list = { "D:\\Dinesh__Workspace\\Qt\\SymmetricDDAandSutherLandCohen2\\SymmetricDDAandSutherLandCohen1\\SymmetricDDAandSutherLandCohen\\Vertex.glsl" ,"D:\\Dinesh__Workspace\\Qt\\SymmetricDDAandSutherLandCohen2\\SymmetricDDAandSutherLandCohen1\\SymmetricDDAandSutherLandCohen\\Fragment.glsl"};
     mVertexShaderWatcher = new QFileSystemWatcher(list,this);
     connect(mVertexShaderWatcher, &QFileSystemWatcher::fileChanged, this, &OpenGLWindow::shaderWatcher);
 
